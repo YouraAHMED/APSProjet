@@ -1,0 +1,8 @@
+[
+  PROC padd [var x:int] 
+    [ SET x (add x 1) ];
+  VAR a int;
+  SET a 0;
+  CALL padd (adr a);
+  ECHO a
+]

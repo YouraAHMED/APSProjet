@@ -1,0 +1,15 @@
+[ 
+    VAR x int; 
+    SET x 0;
+    VAR y int; 
+    SET y 1; 
+    PROC permutation [var x1:int, var y1:int] [ 
+        VAR temp int; 
+        SET temp x1; 
+        SET x1 y1; 
+        SET y1 temp 
+    ]; 
+    CALL permutation (adr x) (adr y); 
+    ECHO x;
+    ECHO y 
+]

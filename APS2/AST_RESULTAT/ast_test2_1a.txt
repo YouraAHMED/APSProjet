@@ -1,0 +1,1 @@
+prog(block([cmds(var(x,int)),set(id(x),num(0)),cmds(var(y,int)),set(id(y),num(1)),cmds(proc(permutation,[(argVar(x1),int),(argVar(y1),int)],block([cmds(var(temp,int)),set(id(temp),id(x1)),set(id(x1),id(y1)),set(id(y1),id(temp))]))),call(id(permutation),[exprProc(x),exprProc(y)]),echo(id(x)),echo(id(y))]))

@@ -1,0 +1,16 @@
+[
+  VAR a int;
+  PROC REC pr [f: (int -> int), n:int]
+  [
+      IF (eq n 0)
+        [ 
+          ECHO a
+        ]
+	      [
+	        SET a (add a 1);
+	        CALL pr f (sub n 1)
+	      ]
+  ];
+  SET a 21;
+  CALL pr [x:int](add x 1) a
+]

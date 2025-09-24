@@ -1,0 +1,1 @@
+prog(block([cmds(proc(padd,[(argVar(x),int)],block([set(id(x),app(id(add),[id(x),num(1)]))]))),cmds(var(a,int)),set(id(a),num(0)),call(id(padd),[exprProc(a)]),echo(id(a))]))

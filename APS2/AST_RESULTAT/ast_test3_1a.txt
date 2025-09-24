@@ -1,0 +1,1 @@
+prog(block([cmds(var(a,int)),cmds(procRec(pr,[(arg(f),arrow([int],int)),(arg(n),int)],block([ifStat(app(id(eq),[id(n),num(0)]),block([echo(id(a))]),block([set(id(a),app(id(add),[id(a),num(1)])),call(id(pr),[id(f),app(id(sub),[id(n),num(1)])])]))]))),set(id(a),num(21)),call(id(pr),[lambda([(x,int)],app(id(add),[id(x),num(1)])),id(a)])]))
