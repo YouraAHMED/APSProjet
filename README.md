@@ -1,4 +1,4 @@
-# 🚀 Projet APS - Analyse et Sémantique des Programmes
+#  Projet APS - Analyse et Sémantique des Programmes
 
 Ce projet est divisé en plusieurs parties (étapes de l'implémentation d'APS) :
 - **APS0** : Noyau fonctionnel.
@@ -7,7 +7,7 @@ Ce projet est divisé en plusieurs parties (étapes de l'implémentation d'APS) 
 - **APS2** : Tableaux.
 - **APS3** : Fonctions procédurales.
 
-## 📁 Structure du projet
+##  Structure du projet
 
 Chaque étape (APS0, APS1, APS1a, APS2, APS3) dispose de son propre répertoire :
 
@@ -44,7 +44,7 @@ Chaque étape (APS0, APS1, APS1a, APS2, APS3) dispose de son propre répertoire 
      ├── ...
 ```
 
-## 🛠️ Prérequis
+##  Prérequis
 
 Pour exécuter les différentes parties du projet, vous devez avoir installé :
 
@@ -58,7 +58,7 @@ ocamlc --version
 swipl --version
 ```
 
-## ▶️ Compilation et Exécution
+##  Compilation et Exécution
 
 Chaque partie du projet dispose de scripts pour automatiser la compilation et l'exécution(Voir readme.md de chaque partie).
 
@@ -74,7 +74,7 @@ cd APS0
 - Si aucun fichier n'est fourni, tous les fichiers `.aps` du dossier `Samples/` seront traités.
 - Les AST sont enregistrés dans `AST_RESULTAT/`.
 
-### 🔍 Exécuter l'analyse du typage :
+###  Exécuter l'analyse du typage :
 
 1. Allez dans le répertoire souhaité :
 
@@ -86,7 +86,7 @@ cd APS0
 - Si aucun fichier n'est fourni, tous les fichiers `.aps` du dossier `Samples/` seront traités.
 - Les résultats du typage sont enregistrés dans `TYPAGE_RESULTAT/`.
 
-### 📊 Exécuter l'évaluation :
+###  Exécuter l'évaluation :
 
 1. Allez dans le répertoire souhaité :
 
@@ -97,7 +97,7 @@ cd APS0
 
 - Les résultats d'exécution sont enregistrés dans `EVAL_RESULTAT/`.
 
-### 🧹 Nettoyer les fichiers générés :
+###  Nettoyer les fichiers générés :
 
 Chaque partie inclut un script de nettoyage :
 
@@ -105,13 +105,13 @@ Chaque partie inclut un script de nettoyage :
 ./clean.sh
 ```
 
-## 📂 Organisation des Résultats
+##  Organisation des Résultats
 
 - **AST_RESULTAT/** : Arbres syntaxiques abstraits (AST).
 - **EVAL_RESULTAT/** : Résultats de l'évaluation des programmes.
 - **TYPAGE_RESULTAT/** : Résultats du typage des programmes.
 
-## 📌 Exemple d'utilisation
+##  Exemple d'utilisation
 
 Pour analyser et évaluer un fichier dans APS0 :
 
@@ -126,9 +126,9 @@ cd APS0
 
 3. Consultez les résultats dans `AST_RESULTAT/`, `EVAL_RESULTAT/` et `TYPAGE_RESULTAT/`.
 
-## 📣 Remarques
+##  Remarques
 
 - Assurez-vous que les fichiers sont bien placés dans le dossier `Samples/`.
 - En cas d'erreur, vérifiez l'installation d'OCaml et SWI-Prolog.
 
-👨‍💻 Projet réalisé pour le cours **MU4IN503 - Analyse des Programmes et Sémantique**.
+ Projet réalisé pour le cours **MU4IN503 - Analyse des Programmes et Sémantique**.
